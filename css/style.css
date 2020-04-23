@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    background-color: #062863;
+}
+
+header img {
+    margin: 4.4rem 0;
+    width: 17rem;
+}
+
+main {
+    margin: 0 2%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    padding: 0 4rem;
+    max-width: 40rem;
+    background-color: #fff;
+    border-radius: 2rem 2rem 2rem 0;
+}
+
+form .form-info {
+    padding: 3rem 0;
+}
+
+.form-info>p {
+    padding: 0.2rem;
+    color: #4a5568;
+}
+
+form h2 {
+    color: #083e9e;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+    color: #4a5568;
+    font-size: 1.2rem;
+}
+
+form input,
+form select {
+    height: 4.2rem;
+    width: 100%;
+    padding: 0 0.7rem;
+    background-color: #edf2f7;
+    font-family: inherit;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.form-control {
+    margin-bottom: 3rem;
+}
+
+input[type='submit'] {
+    margin-bottom: 3rem;
+    background-color: #083e9e;
+    color: #fff;
+    font-weight: bold;
+    height: 5rem;
+    border-radius: 1rem 1rem 1rem 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+}
+
+input[type='submit']:hover {
+    background-color: #062863;
+}
+
+footer {
+    margin: 3rem 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #9fa3aa;
+}
+
+@media only screen and (min-width: 900px) {
+    body {
+        background-image: url('../images/circle.png'),
+            url('../images/Inverted\ J.png'), url('../images/J.png'),
+            url('../images/angle\ bracket.png');
+        background-position: -1% -15%, 108% -1%, -5% 108%, 107% 105%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 21rem 21rem;
+    }
+}
